@@ -1,0 +1,140 @@
+body{
+    background-color: #426466;
+}
+
+@font-face {
+    font-family: play;
+    src: url(3576.ttf);
+}
+
+h1{
+    font-family: play;
+    color: white;
+    font-size: 60px;
+}
+p{
+    margin: 0;
+}
+.logo > img{
+    height: 130px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style: none
+}
+a
+.navv {
+
+}
+
+.top_btn {
+    font-family: play;
+    width: 30%;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 7px;
+    background-color: #253e49;
+    padding: 7px 40px;
+    margin: 5px 15px 15px 15px;
+    color: white;
+    font-size: 3em;
+    text-decoration: none;
+    border-width: 0px;
+    border-style: none;
+    border-color: #253e49;
+    border-image: initial;
+    outline: none;
+}
+
+.top_btn:hover {
+    transition: 0.8s;
+    background-color: #3BAF0B;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn_small{
+    font-family: play;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 7px;
+    background-color: #253e49;
+    padding: 0px 65px;
+    margin: 0;
+    color: white;
+    font-size: 1.85em;
+    text-decoration: none;
+    transition: 0.8s;
+    border-width: 0px;
+    border-style: none;
+    border-color: #253e49;
+    border-image: initial;
+    outline: none;
+}
+.btn_small:hover {
+    background-color: #3BAF0B;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.res > p{
+    color: #3BAF0B;
+    font-family: play;
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: none;
+    color: white;
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 34px;
+    font-family: consolas;
+    font-size: 18px;
+    line-height: 1.42857;
+    color: rgb(85, 85, 85);
+    background-color: #8eadad;
+    background-image: none;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset;
+    padding: 6px 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+    border-radius: 4px;
+
+}
+.form-group{
+    width: 60%;
+    display: inline-flex;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.form-group:last-child{
+    justify-content: center;
+}
+
+.form-horizontal .control-label{
+    text-align: center;
+    font-family: play;
+    font-size: 14px;
+    overflow: hidden
+}
+
+.form-control:focus{
+    border:2px solid #3baf0b;
+}

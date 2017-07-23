@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration</title>
+        <link rel="shortcut icon" type="image/png" href="/views/img/favicon.png"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/views/style/styles.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row text-center">
+                <a class="logo" href="/"><img class="img-responsive" src="/views/img/logo.png" alt="logo"></a>
+                <a class="button top_btn text-center" href="/reg">REG</a>
+                <a class="button top_btn" href="/search">SEARCH</a>
+
+                <form class="form-horizontal" method="POST" id="myForm" action="http://localhost:3000/reg">
+                    <div class="form-group">
+                        <label for="tel" class="col-md-2 control-label">Tel. number</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="tel" name="tel" value="+380">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name" class="col-md-2 control-label">Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="surname" class="col-md-2 control-label">Surname</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="surname" name="surname">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="thing1" class="col-md-2 control-label">1-st thing</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="thing1" name="thing1">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="thing2" class="col-md-2 control-label">2-nd thing</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="thing2" name="thing2">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="thing3" class="col-md-2 control-label">3-rd thing</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="thing3" name="thing3">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="thing4" class="col-md-2 control-label">4-th thing</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="thing4" name="thing4">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <button class="button top_btn text-center btn btn-default" type="submit" >Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

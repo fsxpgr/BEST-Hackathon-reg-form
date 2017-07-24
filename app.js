@@ -44,6 +44,3 @@ app.post("/reg", function (req, res) {
 });
 
 
-app.listen(3000, function () {
-    console.log("Worked on 3000!")
-});

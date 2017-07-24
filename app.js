@@ -44,3 +44,5 @@ app.post("/reg", function (req, res) {
 });
 
 
+module.exports = app;
+
